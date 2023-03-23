@@ -1,7 +1,7 @@
 # 🦙 Simple LLaMA Finetuner
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lxe/simple-llama-finetuner/blob/master/Simple_LLaMA_FineTuner.ipynb)
-[![](https://img.shields.io/badge/no-bugs-brightgreen.svg)](https://github.com/lxe/no-bugs) 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Hello1024/simple-llama-finetuner/blob/master/Simple_LLaMA_FineTuner.ipynb)
+[![](https://img.shields.io/badge/no-bugs-brightgreen.svg)](https://github.com/Hello1024/no-bugs) 
 [![](https://img.shields.io/badge/coverage-%F0%9F%92%AF-green.svg)](https://github.com/lxe/onehundred/tree/master)
 
 Simple LLaMA Finetuner is a beginner-friendly interface designed to facilitate fine-tuning the [LLaMA-7B](https://github.com/facebookresearch/llama) language model using [LoRA](https://arxiv.org/abs/2106.09685) method via the [PEFT library](https://github.com/huggingface/peft) on commodity NVIDIA GPUs. With small dataset and sample lengths of 256, you can even run this on a regular Colab Tesla T4 instance.
@@ -54,7 +54,7 @@ export LD_LIBRARY_PATH=/usr/lib/wsl/lib
 Clone the repository and install the required packages.
 
 ```
-git clone https://github.com/lxe/simple-llama-finetuner.git
+git clone https://github.com/Hello1024/simple-llama-finetuner.git
 cd simple-llama-finetuner
 pip install -r requirements.txt
 ```
